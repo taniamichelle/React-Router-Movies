@@ -7,6 +7,7 @@ const SavedList = props => (
     {props.list.map(movie => (
       <span className="saved-movie">{movie.title}</span>
     ))}
+      {/* Home button allows user to navigate back to Home page (MovieList)*/}
     <div className="home-button"><Link to='/'>Home</Link></div>
   </div>
 );
