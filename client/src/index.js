@@ -11,3 +11,5 @@ ReactDOM.render(
     </Router>, 
     document.getElementById('root')
 );
+
+//in line 3 we're renaming BrowserRouter. You can rename any import in this manner
